@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.controller.CellController">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="350.0" style="-fx-background-color: #ffffe1;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+            <children>
+                <Button layoutX="248.0" layoutY="15.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="340.0" style="-fx-background-color: orange" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                <Label fx:id="txtTitle" layoutX="14.0" layoutY="14.0" text="Label" />
+                <Label fx:id="txtDescription" layoutX="14.0" layoutY="62.0" text="Label" />
+                <ImageView fx:id="imageView" fitHeight="134.0" fitWidth="150.0" layoutX="130.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
